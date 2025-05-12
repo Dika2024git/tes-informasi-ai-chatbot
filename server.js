@@ -1,7 +1,7 @@
 const express = require('express');
 const Fuse = require('fuse.js');
 const fs = require('fs');
-const informasi = JSON.parse(fs.readFileSync('./informasi.json', 'utf-8'));
+const informasi = JSON.parse(fs.readFileSync('./informasi', 'utf-8'));
 const cors = require('cors');
 
 const app = express();
