@@ -1,0 +1,73 @@
+[
+  {
+    "id": "presiden",
+    "title": "Presiden Indonesia",
+    "description": "Kepala negara dan kepala pemerintahan Indonesia.",
+    "aliases": ["presiden", "presiden indonesia", "siapa presiden", "kepala negara", "pemimpin RI"],
+    "answers": [
+      "Presiden Indonesia saat ini adalah Joko Widodo.",
+      "Jokowi menjabat sebagai presiden hingga 2024.",
+      "Pemimpin Indonesia sekarang adalah Joko Widodo."
+    ],
+    "type": "text",
+    "tags": ["politik", "umum"],
+    "priority": 10,
+    "references": ["https://id.wikipedia.org/wiki/Presiden_Indonesia"]
+  },
+  {
+    "id": "bendera",
+    "title": "Bendera Indonesia",
+    "description": "Simbol nasional berupa warna merah dan putih.",
+    "aliases": ["bendera", "bendera indonesia", "warna bendera"],
+    "answers": [
+      "Bendera Indonesia terdiri dari dua warna: merah di atas dan putih di bawah.",
+      "Merah Putih adalah bendera resmi Indonesia.",
+      "Warna bendera Indonesia adalah merah dan putih."
+    ],
+    "type": "text",
+    "tags": ["nasional", "simbol"],
+    "priority": 8,
+    "references": ["https://id.wikipedia.org/wiki/Bendera_Indonesia"]
+  },
+  {
+    "id": "jumlah_provinsi",
+    "title": "Jumlah Provinsi",
+    "description": "Jumlah provinsi administratif di Indonesia.",
+    "aliases": ["jumlah provinsi", "ada berapa provinsi", "provinsi indonesia"],
+    "answers": ["Indonesia memiliki 38 provinsi."],
+    "type": "angka",
+    "tags": ["geografi"],
+    "priority": 9,
+    "references": ["https://id.wikipedia.org/wiki/Daftar_provinsi_di_Indonesia"]
+  },
+  {
+    "id": "chatgpt",
+    "title": "ChatGPT",
+    "description": "Model bahasa alami buatan OpenAI.",
+    "aliases": ["chatgpt", "apa itu chatgpt", "openai", "ai chatbot", "gpt"],
+    "answers": [
+      "ChatGPT adalah AI untuk percakapan dari OpenAI.",
+      "Ini adalah chatbot cerdas berbasis GPT.",
+      "ChatGPT bisa menjawab banyak pertanyaan dengan bahasa alami."
+    ],
+    "type": "text",
+    "tags": ["AI", "teknologi"],
+    "priority": 10,
+    "references": ["https://openai.com/chatgpt"]
+  },
+  {
+    "id": "pancasila",
+    "title": "Pancasila",
+    "description": "Dasar ideologi negara Indonesia.",
+    "aliases": ["pancasila", "dasar negara", "sila pancasila", "nilai indonesia"],
+    "answers": [
+      "Pancasila adalah dasar negara Indonesia yang terdiri dari lima sila.",
+      "Pancasila mencerminkan nilai luhur bangsa.",
+      "Lima sila dalam Pancasila menjadi pedoman kehidupan berbangsa."
+    ],
+    "type": "text",
+    "tags": ["ideologi", "pendidikan"],
+    "priority": 9,
+    "references": ["https://id.wikipedia.org/wiki/Pancasila_(filsafat)"]
+  }
+]
