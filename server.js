@@ -1,8 +1,12 @@
 const express = require('express');
 const Fuse = require('fuse.js');
-const fs = require('fs');
-const informasi = JSON.parse(fs.readFileSync('./informasi', 'utf-8'));
 const cors = require('cors');
+
+const fs = require('fs');
+const path = require('path'); // Ini bawaan, tidak perlu install
+
+const filePath = path.join(__dirname, 'informasi.json');
+const informasi = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
 const app = express();
 
